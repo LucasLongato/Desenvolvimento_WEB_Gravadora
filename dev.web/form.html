@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+        <a class="menu-itemp" href="index.html">Random Records</a>
+        <nav class="cabecalho-menu">
+          <a class="cabecalho-menu-item" href="index.html">Home</a>
+          <a class="cabecalho-menu-item" href="Artistas.html">Artists</a>
+          <a class="cabecalho-menu-item" href="CEO.html">About Us</a>
+          <a class="cabecalho-menu-item" href="form.html">Submit</a>
+        </nav>
+    </header>
+
+    <section class="form-section">
+      <h1>Give us your precious information</h1>
+
+      <div class="form-wrapper">
+        <form>
+          <div class="input-block">
+            <label for="login-name">Name</label>
+            <input type="name" id="login-name" />
+          </div>
+          <div class="input-block">
+            <label for="login-email">Email</label>
+            <input type="email" id="login-email" />
+          </div>
+          <div class="input-block">
+            <label for="birthday">Day of birth:</label>
+            <input type="date" id="birthday" name="birthday">
+          </div>
+          <button type="submit" class="btn-login">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <ul class="squares"></ul>
+
+    <script src="form.js"></script>
+  </body>
+</html>
